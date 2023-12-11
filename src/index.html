@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap Form Project</title>
+  <script src="./js/main.js" defer></script>
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../dist/styles.css">
+</head>
+
+<body>
+  <div class="container mt-5">
+    <h2 data-translate="title">Form input information</h2>
+    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+      <button class="btn btn-info" id="switch-lang">Switch Language</button>
+      <input hidden type="text" class="form-control" id="lang" name="lang" value="en">
+    </div>
+    <div class="ui one column grid container">
+      <div class="column">
+        <div class="ui segment">
+          <div id="error-alert" class="alert alert-danger hidden" role="alert" data-translate=""></div>
+          <div class="alert alert-success hidden">
+            <div class="header" data-translate="status-submit">Form Completed</div>
+            <p data-translate="msg-submit">You're all signed up for the newsletter.</p>
+          </div>
+          <form id="form" class="ui form" novalidate>
+            <div class="mb-3 field">
+              <label for="name" class="form-label" data-translate="name">Name</label>
+              <input type="text" class="form-control" id="name" name="name" data-validation="required">
+            </div>
+            <div class="mb-3 field">
+              <label for="phone" class="form-label" data-translate="phone">Phone</label>
+              <input type="text" class="form-control" id="phone" name="phone" data-validation="required phone">
+            </div>
+            <button type="submit" class="btn btn-info ui button" data-translate="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

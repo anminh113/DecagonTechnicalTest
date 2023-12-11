@@ -1,0 +1,33 @@
+// Override Bootstrap variables or add custom styles here
+$primary: #3f3f3f;
+$secondary: #f8f9fa;
+
+// Import Bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+body {
+    background-color: #f8f9fa;
+}
+
+// Override the default $theme-colors map with your custom colors
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+);
+
+.container {
+    background-color: map-get($theme-colors, "primary");
+    color: map-get($theme-colors, "secondary");
+    padding: 1em;
+    border-radius: 1em;
+}
+
+.hidden {
+    display: none;
+}
+
+.ui.error.message {
+    box-shadow: 0 0 0 1px #e0b4b4 inset, 0 0 0 0 transparent;
+    background-color: #fff6f6;
+    color: #9f3a38;
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Nhập thông tin",
+    "name": "Tên",
+    "phone": "Số Điện Thoại",
+    "submit": "Gửi",
+    "status-submit": "Gửi Thành Công",
+    "msg-submit": "Tất cả các thông tin của bạn đã gửi thành công.",
+    "error-name-msg": "Lỗi. Tên không hợp lệ",
+    "error-phone-msg": "Lỗi. Số Điện Thoại không hợp lệ"
+}

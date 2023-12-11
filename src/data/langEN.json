@@ -1,0 +1,10 @@
+{
+    "title": "Form input information",
+    "name": "Name",
+    "phone": "Phone",
+    "submit": "Submit",
+    "status-submit": "Form Completed",
+    "msg-submit": "You're all signed up for the newsletter.",
+    "error-name-msg": "Error. Name Input Invalid",
+    "error-phone-msg": "Error. Phone Input Invalid"
+}
