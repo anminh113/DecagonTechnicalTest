@@ -1,8 +1,3 @@
-
-# Project Title
-
-A brief description of what this project does and who it's for
-
 # Bootstrap Form Project
 
 A simple web project template using Bootstrap 5, SASS, and Vanilla JavaScript.
@@ -14,8 +9,6 @@ A simple web project template using Bootstrap 5, SASS, and Vanilla JavaScript.
 - [Dependencies](#dependencies)
 - [Getting Started](#getting-started)
 - [Customization](#customization)
-- [Contributing](#contributing)
-- [License](#license)
 
 ---
 
