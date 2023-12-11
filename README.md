@@ -23,6 +23,9 @@ This project provides a basic template for a web form using Bootstrap 5, styled 
 ```plaintext
 bootstrap-form-project
 |-- src
+|   |-- data
+|   |   |-- langEN.json
+|   |   |-- langVN.json
 |   |-- js
 |   |   |-- main.js
 |   |-- sass
@@ -36,6 +39,8 @@ bootstrap-form-project
 
 - src/js/main.js: Contains the main JavaScript file for form interactions.
 - src/sass/styles.scss: Contains custom styles and SASS configuration.
+- src/data/langEN.json: data language English.
+- src/data/langVN.json: data language Vietnamese.
 - index.html: The main HTML file with the form structure.
 - dist/styles.css: Compiled CSS file.
 - node_modules: Dependencies folder.
@@ -45,7 +50,6 @@ bootstrap-form-project
 ## Dependencies
 - Bootstrap 5: Front-end framework for building responsive and mobile-first web pages.
 - SASS: CSS preprocessor to enhance and organize your styles.
-- Alpine.js: Lightweight JavaScript framework for DOM manipulation.
 
 ---
 
